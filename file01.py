@@ -10,6 +10,6 @@ def main(data:str):
     for i in data.split(","):
         l.append(int(i))
     return l
-f = open("txt_file/data01.txt")
-print(main(f.read()))
+a = open("txt_file/data01.txt")
+print(main(a.read()))
 # Read data from file
